@@ -320,7 +320,7 @@ width: 800px;
 }
 
 .ads {
-  margin: 30px;
+  margin: 25px;
   padding-bottom: 60px;
 }
 
@@ -328,7 +328,7 @@ width: 800px;
   display: flex;
   flex-direction: row;
   margin: 40px;
-  margin-left: 80px;
+  
   align-items: center;
   justify-content: center;
   text-align: center;
