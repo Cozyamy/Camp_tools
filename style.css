@@ -328,7 +328,6 @@ width: 800px;
   display: flex;
   flex-direction: row;
   margin: 40px;
-  
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -475,3 +474,149 @@ width: 800px;
   margin-right: 9px;
 }
 
+
+@media only screen and (max-width: 1115px) {
+.contain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -25px;
+  gap: 14px;
+}
+
+.contain article {
+  width: 250px;
+  margin-top: -10px;
+
+}
+
+.contain article img {
+  margin-top: 30px;
+}
+
+.contain article p {
+  font-size: 18px;
+}
+
+.containimg {
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0px 4px 8px rgb(233, 233, 233);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 100px;
+  margin-top: 30px;
+  padding: 18px;
+  width: 400px;
+  margin-bottom: 90px;
+}
+
+.containimg img {
+  width: 80%;
+  height: auto;
+  border-radius: 16px;
+  margin-top: -50px;
+}
+
+.containimg h3 {
+  padding-top: 20px;
+  font-size: 22px;
+}
+
+.containimg button {
+  color: white;
+  background-color: rgb(60, 150, 237);
+  border: none;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 400;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.ads {
+  margin-left: 200px;
+  margin-right: 130px;
+}
+
+.subfooter {
+  margin: 50px;
+  gap: 8px;
+}
+
+.subfooter form {
+  gap: 8px;
+}
+
+#email {
+  width: 200px;
+}
+
+.footersec {
+  margin-left: 150px;
+  margin-right: 150px;
+  gap: 40px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .containimg {
+    margin-right: 70px;
+  }
+
+  .ads {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.service {
+  margin: 50px;
+  gap: 12px;
+}
+
+.service h4 {
+  font-size: 18px;
+}
+
+.alphabet{
+  font-size: 16px;
+  width: 280px;
+}
+
+.nums {
+  font-size: 40px;
+}
+
+.subfooter {
+  gap: 8px;
+}
+
+.subfooter h3 {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.subfooter p {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+#email {
+  width: 180px;
+}
+
+.subfooter button {
+  width: 100px;
+}
+
+.footersec {
+  margin-left: 110px;
+  margin-right: 110px;
+  gap: 30px;
+}
+}
