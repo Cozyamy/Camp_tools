@@ -22,7 +22,7 @@ body {
 }
 
 header {
-  background: url(./images/pix.png);
+  background: linear-gradient( rgba(240, 240, 240, 0.144), rgba(255, 255, 255, 0.336)), url(./images/pix.png);
   background-repeat: no-repeat;
   background-color: hsl(191, 89%, 96%);
   background-size: cover;
@@ -88,7 +88,6 @@ li button {
   font-style: normal;
 }
 
-  
 .theheader {
   display: flex;
   flex-direction: column;
@@ -475,6 +474,28 @@ width: 800px;
 }
 
 
+#ten {
+  display: none;
+}
+
+#six {
+  display: none;
+}
+
+#seven {
+  display: none;
+}
+
+#eight {
+  display: none;
+}
+
+#nine {
+  display: none;
+}
+
+
+
 @media only screen and (max-width: 1115px) {
 .contain {
   display: flex;
@@ -620,3 +641,783 @@ width: 800px;
   gap: 30px;
 }
 }
+
+@media only screen and (max-width: 900px) {
+  nav {
+  padding: 20px;
+  padding-left: 5rem;
+  padding-right: 3rem;
+
+}
+
+.theheader button {
+  margin-left: 0rem;
+}
+
+.theheader address {
+  margin-left: 0rem;
+}
+
+.container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contained p {
+  font-size: 17px;
+}
+
+.contain article {
+  width: 200px;
+
+}
+
+.contain article p {
+  font-size: 16px;
+}
+
+.containimg {
+  margin-right: 30px;
+  padding: 10px;
+  width: 500px;
+}
+
+.containimg img {
+  width: 90%;
+}
+
+.containimg h3 {
+  font-size: 20px;
+}
+
+.middle {
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.midpics article {
+  margin: 10px;
+}
+
+.midpics article div {
+  margin: 17px;
+}
+
+.ads {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.service {
+  gap: 0px;
+}
+
+.service h4 {
+  font-size: 18px;
+}
+
+.alphabet{
+  font-size: 16px;
+}
+
+.nums {
+  font-size: 40px;
+}
+
+.subfooter {
+  margin: 30px;
+  gap: 0px;
+}
+
+.subfooter h3 {
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.subfooter p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.subfooter form {
+  margin-top: 30px;
+  gap: 10px;
+}
+
+#email {
+  width: 120px;
+  margin-right: 7px;
+}
+
+.subfooter button {
+  width: 100px;
+}
+
+#laptop {
+  width: 50%;
+  height: auto;
+}
+
+.footersec {
+  margin-left: 60px;
+  margin-right: 60px;
+  gap: 30px;
+  text-align: left;
+}
+
+}
+
+@media only screen and (max-width: 880px) {
+ 
+ .navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-branding {
+  font-size: 2rem;
+}
+
+.nav-link{
+  transition: 0.7s ease;
+}
+
+.nav-link:hover {
+  color: dodgerblue;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+@media only screen and (max-width: 850px)
+{
+  .hamburger{
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #262626;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+
+  .theheader {
+  margin-top: 9rem;
+}
+
+.theheader h1 {
+  font-size: 40px;
+}
+
+#first {
+width: 550px;
+ font-size: 18px;
+
+}
+
+.theheader button {
+  padding: 4px 10px;
+  width: 160px;
+  font-size: 12px;
+}
+
+.container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contained {
+  flex-direction: column-reverse;
+}
+
+.contained h3 {
+  color: rgb(77, 94, 122);
+  font-weight: 800;
+  line-height: 38px;
+}
+
+.contained p {
+  color: rgb(139, 144, 166);
+  line-height: 29px;
+  font-size: 19px;
+}
+
+.contain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-bottom: 40px;
+}
+
+.contain article {
+  width: 200px;
+  margin-top: 0px;
+
+}
+
+.containimg {
+  margin-right: 0px;
+  width: 400px;
+  margin-bottom: 90px;
+}
+
+.containimg img {
+  width: 80%;
+}
+
+.containimg h3 {
+  font-size: 18px;
+}
+
+.containimg button {
+  padding: 8px 14px;
+}
+
+.middle {
+  padding: 30px;
+  padding-left: 30px;
+}
+
+.midpics article {
+  flex-direction: column;
+}
+
+.ads {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.service {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding-bottom: 190px;
+}
+
+.service h4 {
+  font-size: 18px;
+}
+
+.alphabet{
+  font-size: 16px;
+  width: 150px;
+}
+
+.nums {
+  font-size: 38px;
+}
+
+.subfooter {
+  flex-direction: column-reverse;
+  margin: 60px;
+  margin-top: -120px;
+}
+
+.subfooter article {
+  margin-top: 30px;
+}
+
+.subfooter form {
+  margin-top: 30px;
+  gap: 10px;
+}
+
+#laptop {
+  width: 100%;
+  height: auto;
+}
+
+#email {
+  width: 250px;
+}
+
+.footersec {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  margin-left: 20px;
+  margin-right: 20px;
+  gap: 20px;
+}
+
+.log {
+  align-self: center;
+  justify-self: center;
+}
+
+.log h4 {
+  font-size: 30px;
+}
+
+.log img {
+  margin-left: 50px;
+  width: 30%;
+  height: auto;
+}
+
+.companya {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.companya div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+
+.companyb {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.companyb div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.companyc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.companyc div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.companyd {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.companyd div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+
+
+#one {
+  display: none;
+  margin-right: 0px;
+}
+
+#two {
+  display: none;
+  margin-right: 0px;
+}
+
+#three {
+  display: none;
+  margin-right: 0px;
+}
+
+#four {
+  display: none;
+  margin-right: 0px;
+}
+
+#five {
+  display: none;
+}
+
+.nop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin: 20px;
+}
+
+#six {
+  display: block;
+}
+
+#seven {
+  display: block;
+}
+
+#eight {
+  display: block;
+}
+
+#nine {
+  display: block;
+}
+
+#ten {
+  display: block;
+}
+
+}
+
+
+@media only screen and (max-width: 450px) {
+
+  .theheader {
+  margin-top: 7rem;
+}
+
+.theheader h1 {
+  font-size: 30px;
+}
+
+#first {
+width: 320px;
+ font-size: 16px;
+
+}
+
+.theheader button {
+  padding: 2px 8px;
+  width: 120px;
+  font-size: 11px;
+}
+
+.theheader address {
+  margin-left: 0rem;
+}
+
+.theheader address > p {
+  font-size: 18px;
+}
+
+
+.fa {
+  font-size: 16px;
+  margin-bottom: 16rem;
+}
+
+.container {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contained p {
+  color: rgb(139, 144, 166);
+  line-height: 26px;
+  font-size: 14px;
+}
+
+.contain {
+  margin-left: 0px;
+  margin-bottom: 40px;
+}
+
+.contain article {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.containimg {
+  width: 270px;
+  margin-bottom: 50px;
+}
+
+.containimg button {
+  padding: 8px 14px;
+  font-size: 10px;
+}
+
+.middle {
+  padding: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.middle h2 {
+  font-size: 24px;
+}
+
+.midpics {
+  flex-direction: column;
+}
+
+.midpics .emma {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.midpics .ivana {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.ads {
+  margin-left: 50px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding-bottom: 190px;
+}
+
+.service h4 {
+  font-size: 18px;
+}
+
+.alphabet{
+  font-size: 16px;
+  width: 190px;
+}
+
+.nums {
+  font-size: 30px;
+}
+
+.subfooter {
+  flex-direction: column-reverse;
+  margin: 40px;
+  margin-top: -120px;
+}
+
+.subfooter article {
+  margin-top: 30px;
+}
+
+.subfooter form {
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.subfooter h3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.subfooter p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+#email {
+  width: 120px;
+}
+
+.footersec {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  margin-left: 20px;
+  margin-right: 20px;
+  gap: 20px;
+}
+
+.companya {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.companya div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+
+.companyb {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.companyb div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.companyc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.companyc p {
+  font-size: 14px;
+}
+.companyc div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.companyd {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.companyd div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+
+
+#one {
+  display: none;
+  margin-right: 0px;
+}
+
+#two {
+  display: none;
+  margin-right: 0px;
+}
+
+#three {
+  display: none;
+  margin-right: 0px;
+}
+
+#four {
+  display: none;
+  margin-right: 0px;
+}
+
+#five {
+  display: none;
+}
+
+.nop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin: 20px;
+}
+
+#six {
+  display: block;
+}
+
+#seven {
+  display: block;
+}
+
+#eight {
+  display: block;
+}
+
+#nine {
+  display: block;
+}
+
+#ten {
+  display: block;
+}
+
+}
+
+

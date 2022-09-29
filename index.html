@@ -12,23 +12,28 @@
 </head>
 <body>
 	<header>
-		<nav>
+		<nav class="navbar">
 			<p class="hlogo"><img src="./images/log.png"> CampTools</p>
-			<ul>
-				<li>
-					<a href="#"><img src="./images/add.png"> Pages <span>&or;</span></a>
+			<ul class="nav-menu">
+				<li class="nav-item">
+					<a href="#" class="nav-link"><img src="./images/add.png"> Pages <span>&or;</span></a>
 				</li>
-				<li>
-					<a id="account" href="#"><img src="./images/add.png"> Account <span>&or;</span></a>
+				<li class="nav-item">
+					<a id="account" href="#" class="nav-link"><img src="./images/add.png"> Account <span>&or;</span></a>
 				</li>
-				<li>
-					<a href="#"><img src="./images/add.png"> Sections <span>&or;</span></a>
+				<li class="nav-item">
+					<a href="#" class="nav-link"><img src="./images/add.png"> Sections <span>&or;</span></a>
 				</li>
-				<li>
-					<a href="#"><img src="./images/add.png"> Docs <span>&or;</span></a>
+				<li class="nav-item">
+					<a href="#" class="nav-link"><img src="./images/add.png"> Docs <span>&or;</span></a>
 				</li>
-				<li><button>BUY NOW</button></li>
+				<li class="nav-item nav-link"><button>BUY NOW</button></li>
 			</ul>
+			<div class="hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
 		</nav>
 		<section class="theheader">
 			<h1>Work with an amazing tool</h1>
@@ -156,7 +161,7 @@
 							<button id="sub">SUBSCRIBE</button>
 						</form>
 					</article>
-					<img src="./images/image 8.png">
+					<img id="laptop" src="./images/image 8.png">
 				</section>
 			</footer>
 		</section>
@@ -176,36 +181,52 @@
 							<img id="five" src="./images/youtube.png">
 						</picture>
 					</article>
-					<article>
-						<h4>Company</h4>
+					<article class="companya">
+						<h4 class="compa">Company</h4>
+						<div>
 						<p>About Us</p>
 						<p>Freebies</p>
 						<p>Premium Tools</p>
 						<p>Blog</p>
+					</div>
 					</article>
-					<article>
-						<h4>Resources</h4>
+					<article class="companyb">
+						<h4 class="compb">Resources</h4>
+						<div>
 						<p>Illustrations</p>
 						<p>Bits & Snippets</p>
 						<p>Affiliate Program</p>
+					</div>
 					</article>
-					<article>
-						<h4>Help & Support</h4>
+					<article class="companyc">
+						<h4 class="compc">Help & Support</h4>
+						<div>
 						<p>Contact Us</p>
 						<p>Knowledge Center</p>
 						<p>Custom Development</p>
 						<p>Sponsorships</p>
+					</div>
 					</article>
-					<article>
-						<h4>Legal</h4>
+					<article class="companyd">
+						<h4 class="compd">Legal</h4>
+						<div>
 						<p>Terms & Conditions</p>
 						<p>Privacy Policy</p>
 						<p>Licenses (EULA)</p>
+					</div>
 					</article>
 				</section>
 			</section>
+			<picture class="nop">
+				<img id="six" src="./images/facebook.png">
+				<img id="seven" src="./images/twitter.png">
+				<img id="eight" src="./images/drib.png">
+				<img id="nine" src="./images/github.png">
+				<img id="ten" src="./images/youtube.png">
+			</picture>
 			<p>All rights reserved. Copyright &copy; 2022 Byteworks Technology Solutions.</p>
 		</section>
 	</footer>
+	<script src="script.js"></script>
 </body>
 </html>
