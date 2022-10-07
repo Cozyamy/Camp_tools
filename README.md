@@ -30,6 +30,7 @@ This is a solution to the CampTools landing page, it is aimed at improving my sk
 - HTML5
 - CSS 
 - Flexbox
+- JavaScript
 
 ## Author
 - Github - [Cozyamy](https://github.com/Cozyamy/Camp_tools)
